@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Virtual Notebooks</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <style>
+    body {
+      background-image: url('https://images.alphacoders.com/697/thumb-1920-697490.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .subject-card {
+      background-color: rgba(255, 255, 255, 0.95) !important;
+      border-radius: 15px !important;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2) !important;
+      border: none;
+      overflow: hidden;
+      margin-bottom: 25px;
+      transition: transform 0.2s ease;
+    }
+
+    .subject-card:hover {
+      transform: translateY(-5px);
+    }
+
+    nav {
+      width: 240px;
+      background-color: rgba(255, 255, 255, 0.95);
+      border-right: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+    }
+
+    .nav-link {
+      color: #5a4a5a !important;
+      font-weight: bold;
+      padding: 12px 20px;
+    }
+
+    .card-title {
+      color: #4a3b4a;
+      font-weight: bold;
+    }
+
+    .card-text {
+      color: #888;
+    }
+
+    h2 {
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .card-img-top {
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .container-fluid {
+        padding: 40px !important;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="d-flex">
+    <nav class="vh-100 p-3">
+      <div class="text-center mb-4">
+          <h5 style="color: #4a3b4a; margin-top: 10px;">Menu</h5>
+      </div>
+      <ul class="nav flex-column">
+        <li class="nav-item"><a class="nav-link">Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link">Notebooks</a></li>
+        <li class="nav-item"><a class="nav-link">Tasks</a></li>
+        <li class="nav-item"><a class="nav-link">Profile</a></li>
+        <li class="nav-item mt-5"><a href="index.html" class="nav-link text-muted">Logout</a></li>
+      </ul>
+    </nav>
+
+    <div class="container-fluid">
+      <h2 class="mb-4">NOTEBOOKS</h2>
+      <div class="row">
+        
+        <div class="col-md-4">
+          <div class="card subject-card">
+            <img src="https://i.pinimg.com/736x/25/56/42/2556420ff3cfbd0ed5c7fbb49a460edd.jpg" class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">Host Club</h5>
+              <p class="card-text">9-OHS <br>Tamaki Suoh & Kyoya Ootori</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card subject-card">
+            <img src="https://i.pinimg.com/736x/31/b2/36/31b23680178aa798ddd593ce499948ed.jpg" class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">Economics</h5>
+              <p class="card-text">9-OHS <br>Kyoya Ootori</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card subject-card">
+            <img src="https://i.pinimg.com/736x/4f/4a/f5/4f4af51370e5b1a100da83687f144f32.jpg" class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">Arts & Creativity</h5>
+              <p class="card-text">9-OHS <br>Hikaru & Kaoru Hitachiin</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card subject-card">
+            <img src="https://i.pinimg.com/736x/8c/28/bc/8c28bcfed100d68dec3adf62009798b4.jpg" class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">Mathematics</h5>
+              <p class="card-text">9-OHS <br>Mitsukuni Haninozuka</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card subject-card">
+            <img src="https://i.pinimg.com/1200x/74/a7/50/74a7505725e9fc71004bbac58c5d2c18.jpg" class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">Physical Education</h5>
+              <p class="card-text">9-OHS<br>Takashi Morinozuka</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card subject-card">
+            <img src="https://i.pinimg.com/1200x/3d/3b/40/3d3b40cd7e2d7e148f0ab03a05d239fe.jpg" class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">Language</h5>
+              <p class="card-text">9-OHS <br>Tamaki Suoh</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
